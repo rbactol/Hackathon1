@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DAD7CD;
+  }
+
+  #map {
+    position: absolute;
+    left: 25%;
+    top: 0;
+    bottom: 0;
+    width: 75%;
+  }
+
+
+  /* Popup styling */
+
+  .mapboxgl-popup {
+    padding-bottom: 5px;
+  }
+
+  .mapboxgl-popup-close-button {
+    display: none;
+  }
+
+  .mapboxgl-popup-content {
+    font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+    padding: 0;
+    width: 250px;
+  }
+
+  .mapboxgl-popup-content-wrapper {
+    padding: 1%;
+  }
+
+  .mapboxgl-popup-content h3 {
+    background: rgb(61, 59, 59);
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    display: block;
+    padding: 15px;
+    font-weight: 700;
+    margin-top: -5px;
+  }
+
+  .mapboxgl-popup-content h4 {
+    margin: 0;
+    display: block;
+    padding: 10px 3px 10px 10px;
+    font-weight: 400;
+  }
+
+  .mapboxgl-container {
+    cursor: pointer;
+  }
+
+  .mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
+    margin-top: 3px;
+  }
+
+  .mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
+    border-bottom-color: rgb(61, 59, 59);
+  }
+
+
+  #sideContainter{
+    position: absolute;
+    right: 75%;
+    width: 25%;
+  }
+
+  #title {
+    position: absolute;
+    top: 5%;
+    bottom: 0;
+
+    width: 25%;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  img{
+    width: 75%;
+    height: 25%;
+
+  }
+
+  #problem{
+    position: absolute;
+    top: 35%;
+    left: 1.5%;
+    bottom: 0;
+
+    width: 275px;
+    height: 225px;
+    padding: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    
+  }
+
+  #resources{
+    position: absolute;
+    top: 85%;
+    left: 1.5%;
+    bottom: 0;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    
+  }
+
+
+
