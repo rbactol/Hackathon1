@@ -18,7 +18,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/rbactol/ckgy0fsr97kwu19pgm12vfcuk', // replace this with your style URL
     center: [-93.0900, 44.9537],
-    zoom: 8.7,
+    zoom: 11,
     transformRequest: transformRequest
 });
 
