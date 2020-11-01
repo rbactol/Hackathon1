@@ -1,0 +1,204 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>About us page</title>
+    <style type="text/css">
+        /* Layout */
+        body {
+            min-width: 630px;
+        }
+
+        #container {
+            padding-left: 200px;
+            padding-right: 190px;
+        }
+
+        #container .column {
+            position: relative;
+            float: left;
+        }
+
+        #center {
+            padding: 10px 20px;
+            width: 100%;
+        }
+
+        #left {
+            width: 180px;
+            padding: 0 10px;
+            right: 240px;
+            margin-left: -100%;
+        }
+
+        #right {
+            width: 130px;
+            padding: 0 10px;
+            margin-right: -100%;
+        }
+
+        #footer {
+            clear: both;
+        }
+
+        /* IE hack */
+        * html #left {
+            left: 150px;
+        }
+
+        /* Make the columns the same height as each other */
+        #container {
+            overflow: hidden;
+        }
+
+        #container .column {
+            padding-bottom: 1001em;
+            margin-bottom: -1000em;
+        }
+
+        /* Fix for the footer */
+        * html body {
+            overflow: hidden;
+        }
+
+        * html #footer-wrapper {
+            float: left;
+            position: relative;
+            width: 100%;
+            padding-bottom: 10010px;
+            margin-bottom: -10000px;
+            background: #fff;
+        }
+
+        /* Aesthetics */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Sans-serif;
+            line-height: 1.25em;
+        }
+
+        p {
+            color: rgb(13, 50, 77);
+        }
+
+        button {
+            width: 100;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul a {
+            color: rgb(37, 65, 59);
+            text-decoration: none;
+        }
+
+        #header {
+            background: rgb(13, 50, 77);
+        }
+        #footer {
+            font-size: large;
+            padding: 0.3em;
+            background: rgb(131, 232, 186);
+        }
+
+        #left {
+            background: rgb(16, 69, 71);
+        }
+
+        #right {
+            background: rgb(104, 150, 137);
+        }
+
+        #center {
+            background: rgb(226, 255, 245);
+        }
+
+        #container .column {
+            padding-top: 1em;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header id="header">
+        <img src="WhiteSOS.png" width="300">
+    </header>
+
+    <div id="container">
+
+        <main id="center" class="column">
+            <article>
+
+                <h2>About Us</h2>
+
+                <img src="Education and Covid-19forInfoPage.png" width="925">
+
+                <h3>Background</h3>
+                <p>The COVID-19 pandemic has exacerbated education inequalities,
+                    and Support Our Students (SOS) counters this growing inequality gap by bringing the Ramsey County
+                    community
+                    together to share resources and make sure all students can prosper.
+                    Educating the next generation is the most powerful way to empower our community,
+                    and we can overcome the obstacles presented by this pandemic by collaborating.
+                    SOS facilitates this collaboration by employing elements of a sharing economy to match
+                    underused assets and available services with students in need. Do you have an old laptop you’re no
+                    longer using?
+                    A recommendation for a quiet coffee shop with excellent wifi? Some free hours to mentor students who
+                    are struggling with algebra?
+                    Discounted technology such as computers or internet hotspots? Join SOS to share these resources with
+                    students in your community. </p>
+
+                <h3>Sponsors</h3>
+                <p>SOS is generously supported by [insert company name]</p>
+
+                <h3>Website description</h3>
+                <p>SOS is a crowdsourced community resource that was created in response to the COVID-19 pandemic and
+                    the educational inequalities it produced. This map-based website is populated with data by users,
+                    connecting available technology and information to students who lack the resources to successfully
+                    adapt to online classes.</p>
+
+                <h3>About us</h3>
+                <p>SOS was created during a Hack-a-Thon organized by Hack The Gap and sponsored by Ramsey County. The
+                    design of this project will allow it to expand with time as it reaches a greater audience. Success
+                    will be measured by the quantity of resources shared, and we expect that this will exponentially
+                    increase overtime as more community members gain access to our site. SOS seeks to add value to
+                    Ramsey County by employing sustainable solutions for the community, by the community. By recycling
+                    old technology and providing information on shared resources, the county will reduce waste and reep
+                    the benefits of a sharing economy. Team members are Roman Bactol, Imane Chantri, Willow Fortunoff,
+                    Hayley Hadges, and Isabella Valdivia.
+                </p>
+
+
+            </article>
+        </main>
+
+        <nav id="left" class="column">
+            <h3>Navigation</h3>
+            <ul>
+                <a href="index.html"><button>Home</button></a>
+                <a href="index.html"><button>Resources</button></a>
+            </ul>
+        </nav>
+
+        <div id="right" class="column">
+            <h3>An ad could go here?</h3>
+        </div>
+
+    </div>
+
+    <div id="footer-wrapper">
+        <footer id="footer">
+            <p>Contact info</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
